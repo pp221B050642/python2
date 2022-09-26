@@ -1,0 +1,5 @@
+fruit = ananas
+vegetable = tomato
+thing = pen
+human = Einstein
+animal = tiger
