@@ -7,7 +7,7 @@ class Password_manager:
         if new_password not in self.passwords:
             self.passwords.append(new_password)
         else:
-            return f"You already used {new_password} as your password"
+            print(f"You already used {new_password} as your password")
     def is_correct(self, password):
         if str(password) == str(self.passwords[len(self.passwords)-1]):
             return True
