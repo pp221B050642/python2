@@ -3,12 +3,12 @@ import math
 
 calculator = Tk()
 calculator.title("Scientific Calculator")
-calculator.geometry("360x280")
+calculator.geometry("405x305")
 
 display = StringVar() 
 operator = ''
 
-txtDisplay = Entry(calculator, font=('Helvetica',20),bg='grey',fg='white', textvariable=display, bd = 20,width=21,justify=RIGHT)
+txtDisplay = Entry(calculator, font=('Helvetica',20),bg='grey',fg='white', textvariable=display, bd = 20,width=24 ,justify=RIGHT)
 txtDisplay.grid()
 txtDisplay.insert(0,"0")
 
