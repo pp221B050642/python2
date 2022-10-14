@@ -12,7 +12,7 @@ txtDisplay = Entry(calculator, font=('Helvetica',20),bg='grey',fg='white', textv
 txtDisplay.grid()
 txtDisplay.insert(0,"0")
 
-f = Frame(calculator)
+f = Frame(calculator)   
 f.grid()
 f2 = Frame(calculator)
 f2.grid()
@@ -101,7 +101,7 @@ def tanh_func():
     display.set(answer)
 def naturallog():
     global operator
-    answer = str(math.log(int(operator)))
+    answer = str(math.log(float(operator)))
     operator = answer
     display.set(answer)
 def logarithm10():
