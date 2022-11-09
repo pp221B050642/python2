@@ -1,4 +1,4 @@
-#minesweeper i-grid
+
 import numpy as np
 
 grid = np.array([
