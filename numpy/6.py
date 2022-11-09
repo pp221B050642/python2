@@ -1,3 +1,4 @@
+
 #minesweeper i-grid
 import numpy as np
 
@@ -54,6 +55,3 @@ for i in range(n):
     if grid[i][j] == "-":
       grid[i][j] = "0"
 print(grid)
-
-    
-
